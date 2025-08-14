@@ -26,7 +26,7 @@
                 "isEstimated": false
             },
             "internet-bill": {
-                "value": 1,
+                "value": 100,
                 "payableBy": "tenant",
                 "payableAt": "weekly",
                 "required": true,
