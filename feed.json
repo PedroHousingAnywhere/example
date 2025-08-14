@@ -76,7 +76,7 @@
             "wifi": true,
             "animalAllowed": "no",
             "cleaningCommon": true,
-            "cleaningPrivate": true,
+            "cleaningPrivate": false,
             "playMusic": "quiet_hours_only",
             "smokingAllowed": "outside_only",
             "preferredGender": "any",
