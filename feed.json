@@ -26,9 +26,9 @@
                 "isEstimated": false
             },
             "internet-bill": {
-                "value": 0,
-                "payableBy": "landlord",
-                "payableAt": "move-in",
+                "value": 1,
+                "payableBy": "tenant",
+                "payableAt": "weekly",
                 "required": true,
                 "refundable": false,
                 "isEstimated": true
