@@ -1,1 +1,114 @@
-[]
+[
+    {
+  "listingReference": "PROP-123456",
+  "type": "apartment",
+  "kind": "private_room",
+  "address": "Blaak 555, 3011 GB Rotterdam",
+  "description": "Beautiful private room in shared apartment located in the heart of Rotterdam.",
+  "alias": "Cozy Room Amsterdam Center",
+  "pricingType": "flat",
+  "flatPrice": 850,
+  "monthlyPrices": [],
+  "costs": {
+    "security-deposit": {
+      "value": 30000,
+      "payableBy": "tenant",
+      "payableAt": "move_in",
+      "required": true,
+      "refundable": true,
+      "isEstimated": false
+    },
+    "administration-fee": {
+      "value": 15000,
+      "payableBy": "tenant",
+      "payableAt": "move_in",
+      "required": true,
+      "refundable": false,
+      "isEstimated": false
+    },
+    "electricity-bill": {
+      "value": 3000,
+      "payableBy": "tenant",
+      "payableAt": "monthly",
+      "required": true,
+      "refundable": false,
+      "isEstimated": true
+    },
+    "internet-bill": {
+      "value": 2500,
+      "payableBy": "landlord",
+      "payableAt": "monthly",
+      "required": false,
+      "refundable": false,
+      "isEstimated": false
+    }
+  },
+  "currencyCode": "EUR",
+  "startDate": "2026-01-01",
+  "endDate": "2026-12-31",
+  "blockedPeriods": [
+    {
+      "startDate": "2026-02-01",
+      "endDate": "2024-02-28"
+    }
+  ],
+  "minimumStayMonths": 3,
+  "maximumStayMonths": 12,
+  "moveInWindow": 14,
+  "facilities": {
+    "allergyFriendly": true,
+    "housematesGender": "mixed",
+    "registrationPossible": true,
+    "tenantStatus": "student",
+    "bedroomCount": 1,
+    "bedroomFurnished": true,
+    "bedroomSize": 15,
+    "bedroomLock": true,
+    "balconyTerrace": "shared",
+    "bathroom": "shared",
+    "garden": "none",
+    "kitchen": "shared",
+    "livingRoom": "shared",
+    "parking": "none",
+    "toilet": "shared",
+    "kitchenware": "full",
+    "totalSize": 80,
+    "wheelchairAccessible": false,
+    "ac": false,
+    "bed": true,
+    "closet": true,
+    "desk": true,
+    "dishwasher": true,
+    "dryer": false,
+    "flooring": "hardwood",
+    "internet": true,
+    "livingRoomFurnished": true,
+    "tv": true,
+    "washingMachine": true,
+    "wifi": true,
+    "animalAllowed": "no",
+    "cleaningCommon": true,
+    "cleaningPrivate": false,
+    "playMusic": "quiet_hours_only",
+    "smokingAllowed": "outside_only",
+    "preferredGender": "any",
+    "couplesAllowed": false,
+    "currentOccupancy": 2,
+    "freePlaces": 1,
+    "heating": "central"
+  },
+  "images": [
+    "https://your-domain.com/images/prop-123456-1.jpg",
+    "https://your-domain.com/images/prop-123456-2.jpg",
+    "https://your-domain.com/images/prop-123456-3.jpg",
+    "https://housinganywhere.imgix.net/static/logo-840x240.png"
+  ],
+  "lastUpdate": "2025-01-15T10:30:00Z",
+  "lastUpdated": "2025-01-15T10:30:00Z",
+  "listingUrl": "https://your-domain.com/listings/PROP-123456",
+  "minAge": 18,
+  "maxAge": 35,
+  "payoutMethodName": "bank_transfer",
+  "payoutMethodGuid": "12345678-1234-1234-1234-123456789012"
+}
+]
