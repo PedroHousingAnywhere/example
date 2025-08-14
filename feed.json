@@ -13,7 +13,7 @@
     "security-deposit": {
       "value": 30000,
       "payableBy": "tenant",
-      "payableAt": "move_in",
+      "payableAt": "move-in",
       "required": true,
       "refundable": true,
       "isEstimated": false
@@ -21,7 +21,7 @@
     "administration-fee": {
       "value": 15000,
       "payableBy": "tenant",
-      "payableAt": "move_in",
+      "payableAt": "move-in",
       "required": true,
       "refundable": false,
       "isEstimated": false
@@ -30,7 +30,7 @@
       "value": 3000,
       "payableBy": "tenant",
       "payableAt": "monthly",
-      "required": true,
+      "required": false,
       "refundable": false,
       "isEstimated": true
     },
@@ -38,7 +38,7 @@
       "value": 2500,
       "payableBy": "landlord",
       "payableAt": "monthly",
-      "required": false,
+      "required": true,
       "refundable": false,
       "isEstimated": false
     }
