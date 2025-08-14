@@ -7,7 +7,7 @@
         "description": "Beautiful private room in shared apartment located in the heart of Rotterdam.",
         "alias": "Cozy Room Amsterdam Center",
         "pricingType": "flat",
-        "flatPrice": 850,
+        "flatPrice": 85000,
         "monthlyPrices": [],
         "costs": {
             "security-deposit": {
@@ -28,7 +28,7 @@
             "internet-bill": {
                 "value": 0,
                 "payableBy": "landlord",
-                "payableAt": "monthly",
+                "payableAt": "move-in",
                 "required": true,
                 "refundable": false,
                 "isEstimated": true
@@ -78,8 +78,8 @@
             "washingMachine": true,
             "wifi": true,
             "animalAllowed": "no",
-            "cleaningCommon": true,
-            "cleaningPrivate": false,
+            "cleaningCommon": false,
+            "cleaningPrivate": true,
             "playMusic": "quiet_hours_only",
             "smokingAllowed": "outside_only",
             "preferredGender": "any",
