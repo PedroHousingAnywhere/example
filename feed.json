@@ -24,14 +24,6 @@
       "payableAt": "move-in",
       "required": true,
       "refundable": false,
-      "isEstimated": false
-    },
-    "electricity-bill": {
-      "value": 3000,
-      "payableBy": "tenant",
-      "payableAt": "monthly",
-      "required": false,
-      "refundable": false,
       "isEstimated": true
     },
     "internet-bill": {
