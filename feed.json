@@ -22,16 +22,13 @@
                 "payableBy": "tenant",
                 "payableAt": "move-in",
                 "required": true,
-                "refundable": false,
-                "isEstimated": false
+                "refundable": false
             },
             "internet-bill": {
                 "value": 100,
                 "payableBy": "tenant",
                 "payableAt": "weekly",
-                "required": true,
-                "refundable": false,
-                "isEstimated": true
+                "required": true
             }
         },
         "currencyCode": "EUR",
@@ -78,7 +75,7 @@
             "washingMachine": true,
             "wifi": true,
             "animalAllowed": "no",
-            "cleaningCommon": false,
+            "cleaningCommon": true,
             "cleaningPrivate": true,
             "playMusic": "quiet_hours_only",
             "smokingAllowed": "outside_only",
