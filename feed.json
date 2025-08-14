@@ -26,7 +26,7 @@
                 "isEstimated": false
             },
             "internet-bill": {
-                "value": 2500,
+                "value": 0,
                 "payableBy": "landlord",
                 "payableAt": "monthly",
                 "required": true,
