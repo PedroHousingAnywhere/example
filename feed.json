@@ -15,8 +15,7 @@
                 "payableBy": "tenant",
                 "payableAt": "move-in",
                 "required": true,
-                "refundable": true,
-                "isEstimated": true
+                "refundable": true
             },
             "administration-fee": {
                 "value": 15000,
